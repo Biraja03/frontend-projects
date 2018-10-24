@@ -1,0 +1,19 @@
+  body
+       {
+          background-color:green;
+          text-decoration: overline;
+        }
+
+   p 
+     {
+
+      background-color:gray;
+      color:yellow;
+
+      border:5px solid green;
+
+      padding:20px;
+  
+       margin:30px;
+    
+     }
