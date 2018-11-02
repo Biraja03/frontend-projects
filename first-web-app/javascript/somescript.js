@@ -10,21 +10,23 @@
 
  function msg() {
      alert("Hi page3");
-     var x=prompt("Message:");
+     // document.getElementById("demo").innerHTML = You did this: (5 + 6) * 10;
+     // var x=prompt("Message:");
  }
 
- var myfirstprogram = "HELLO WORLD"
- alert(myfirstprogram)
+ // var myfirstprogram = "HELLO WORLD";
+ // alert(myfirstprogram)
 
 
-var name, address;
+ // var name, address;
 
-functon getInput() {
+ // functon getInput() {
 
-    name = document.getelementById("name").value;
-    address = document.getElementById("address").value;
+ //     name = document.getelementById("name").value;
+ //     address = document.getElementById("address").value;
 
-    if (address !== "")
-        document.getElementById("address").removeAttribute("disabled");   
+ //     if (address !== "") {
+ //         document.getElementById("address").removeAttribute("disabled");   
+ //     }
 
-}
+ // }
