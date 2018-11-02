@@ -17,3 +17,14 @@
  alert(myfirstprogram)
 
 
+var name, address;
+
+functon getInput() {
+
+    name = document.getelementById("name").value;
+    address = document.getElementById("address").value;
+
+    if (address !== "")
+        document.getElementById("address").removeAttribute("disabled");   
+
+}
