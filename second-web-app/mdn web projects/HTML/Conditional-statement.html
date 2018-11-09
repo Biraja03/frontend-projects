@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title> Conditional Statement</title>
+</head>
+<body>
+  <style>
+h1 {
+    text-align: center;
+}
+</style>
+	<h1> Conditional Statements </h1>
+ Conditional Statements are Used if to specify a block of code to be executed, if a specified condition is true. Use else to specify a block of code to be executed, if the same condition is false.
+
+	         <br>
+	         <br>
+	   <h2>Type of Conditional Statements:</h2>
+   <p1> There are 5 types of Conditional Statements :</p1>
+    
+    <ol>
+        <li>if </li>
+        <li>if-else</li>
+        <li>else if</li>
+        <li>nested-if</li>
+        <li>swichcase</li>
+      </ol>
+       <style>
+h3 {
+    text-align: center;
+}
+</style>
+      <h3>1. <u>IF statements </u> </h3>
+     in IF statement if the condition is false, another block of code can be executed.
+     <br>
+     <br>
+     <p1> //<u>Examples of IF statements</u> : </p1>
+   <br><br>
+    <p> value of a=30:</p>
+    <ol>
+        
+        <li>a==10</li>
+        <li>a!=10</li>
+      
+    </ol>
+<p>1. Which one is right ? </p>
+    Go to Console/Click on the button:
+<button onclick="myFunction()">ANS</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = ". a != 10 ";
+}
+</script>
+     
+     
+
+     <script>
+
+   	      var a=30;
+   	      if(a==10)
+   	      {
+   	      	console.log("a is equal to 10");
+   	      }
+
+   	      if(a!=10)
+   	      {
+   	      	console.log("a is not equal to 10");
+   	      }
+   	  </script>
+
+
+
+      <h3>2. <u>Nested-IF Statement</u> </h3>
+      A nested if is an if statement that is the target of another if statement.
+
+           <br>
+           <br>
+           <p1> //<u>Examples of IF statements</u> : </p1>
+   <br><br>
+    <p> The value of a=10
+      <br>
+      <br>
+       The value of b=10 :</p>
+
+    <ol>
+        
+        <li>a>=b</li>
+
+    </ol>
+ <p>1. For answer - </p>
+    Go to Console/Click on the button:
+<button onclick="myFunction()">Click</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Ans= a is equal to b ";
+}
+</script>
+<script>
+
+          var a=10,b=10;
+
+          if(a>=b)
+          {
+            if(a==b)
+         
+          {
+            console.log("a is eqal to b");
+          }
+           else
+          {
+            console.log("a is greater than b");
+          }
+        }
+      </script>
+
+
+
+
+      <h3>3. <u>IF-Else Statement</u> </h3>
+      A IF-Else Statement is an if statement that is the target of another if statement.
+
+           <br>
+           <br>
+   <p1> //<u>Examples of IF-Else statements</u> : </p1>
+   <br><br>
+    <p> The value of a=10 :</p>
+
+    <ol>
+        
+        <li>a==10</li>
+
+    </ol>
+ <p>1. For answer - </p>
+    Go to Console/Click on the button:
+<button onclick="myFunction()">Click</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Ans= a is equal to b ";
+}
+</script>
+<script>
+
+          var a=10;
+          if(a==10)
+          {
+            console.log("a is equal to 10");
+          }
+
+          else
+          {
+            console.log("a is not equal to 10");
+          }
+      </script>
+
+
+
+
+
+
+        <h3>4.  <u>Else-IF Statement</u> </h3>
+        The else-if statement executes a block of code if a specified condition is true. if the Condition is true then print the statement , otherwise
+        go to 2nd one. 
+           <br>
+           <br>
+        <p1> //<u>Examples of IF-Else statements</u> : </p1>
+   <br>
+    <p>  a=30,b=20 :</p>
+
+    <ol>
+        
+        <li>a==b</li>
+        <li> a< b </li>
+        <li> a>b </li>
+      
+    </ol>
+    <p>1. To see which one is right.. </p>
+    Go to Console/Click on the button:
+
+    <button onclick="myFunction()">ANS</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = ". a>b ";
+}
+</script>
+
+<script>
+
+          var a=30,b=20;
+
+          if(a==b)
+          {
+            console.log("a is equal to b");
+          }
+
+          else if (a<b)
+          {
+            console.log("a is less than b");
+          }
+           else if (a>b)
+          {
+            console.log("a is greater than b");
+          }
+      </script>
+   	</body>
+   	</html>

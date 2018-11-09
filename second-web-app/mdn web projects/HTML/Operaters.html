@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>JS-Operaters</title>
+</head>
+<body>
+ <style>
+h1 {
+    text-align: center;
+}
+</style>
+	<h1>Operaters</h1>
+  JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more.
+
+	         <br>
+	         <br>
+          <h2>Type of Operaters :</h2>
+   <p1> There are 6 types of Operaters :</p1>
+
+   <ol>
+        <li>Arthimetical Operaters </li>
+        <li>Assignment Operaters</li>
+        <li>Concatenation Operaters</li>
+        <li>Increment & Decrement Operaters</li>
+        <li>Logical Operaters</li>
+        <li>Relational Operaters</li>
+    </ol>
+     <style>
+h3 {
+    text-align: center;
+}
+</style>
+   <h3>1. <u>Arthimetical Operaters </u> </h3>
+   . Arithmetic operators are used to perform arithmetic between variables and/or values.
+  <p> There are 5 types of arithmetical operaters </p>
+
+   <ol>
+        <li>Addition (+)</li>
+        <li>Substraction (-)</li>
+        <li>Multipication (*)</li>
+        <li>Division (/)</li>
+        <li>Remainder (%)</li>
+
+    </ol>
+   <p1> //Examples of Arthimetical Operaters : </p1>
+   <br><br>
+  <p> Value of a=10 
+   <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b=3 </p>
+   <ol>
+        <li>c=a+b;</li>
+        <li>c=a-b;</li>
+        <li>c=a*b;</li>
+        <li>c=a/b;</li>
+        <li>c=a%b;</li>
+        
+    </ol>
+    <p>1.For Answers  </p>
+    Go to Console/Click on the button:
+<button onclick="myFunction()">ANS</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "1=13 <br> 2=7<br> 3=30<br>4=3.333333335 <br> 5=1";
+}
+   </script>
+   <script>
+    var a=10,b=3;
+    var c=a+b;
+    var d=a-b;
+    var e=a*b;
+    var f=a/b;
+    var g=a%b;
+
+ console.log(c);
+ console.log(d);
+ console.log(e);
+ console.log(f);
+ console.log(g);
+
+     </script>
+     <h3>2. <u>Assignment Operaters </u> </h3>
+   . An Assignment operator is the operator used to assign a new value to a variable, property, event etc.
+  <p> There are 6 types of Assignment operaters </p>
+
+   <ol>
+        <li>Assigns to: '='</li>
+        <li>Add & Assigns to: '+='</li>
+        <li>Subtract & Assigns to: '-='</li>
+        <li>Multiply & Assigns to: '*='</li>
+        <li>Divide & Assigns to: '/='</li>
+        <li>Remainder & Assigns to'%='</li>
+    </ol>
+   <p1> //Examples of Arssignment Operaters : </p1>
+   <br><br>
+  <p> Value of a=10
+   <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b=3 </p>
+   <ol>
+        <li>  a=b;  </li>
+        <li>c=(a+=b);</li>
+        <li>c=(a-=b);</li>
+        <li>c=(a*=b);</li>
+        <li>c=(a/=b);</li>
+        <li>c=(a%=b);</li>
+        
+    </ol>
+    <p>1.To get Answers  
+    Go to Console/Click on the button:</p>
+<button onclick="myFunction()">HIT</button>
+
+<p id="demo1"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo1").innerHTML = "1=13 <br> 2=10<br> 3=30<br> 4=10 <br> 5=1";
+}
+   </script>
+<script>
+    var a=10,b=3;
+
+     a+=b;
+    console.log(a);
+
+     a-=b;
+    console.log(a);
+
+     a*=b;
+    console.log(a);
+
+     a/=b;
+    console.log(a);
+
+     a%=b;
+    console.log(a);
+
+     </script>
+
+
+     <h3>3. <u>Concatenation Operaters </u> </h3>
+   . Concatenation operaters are used to attach two Strings/Strings and number.
+  <p> There are 3 types of Concatenation operaters </p>
+
+   <ol>
+
+        <li>Strings + Strings .</li>
+        <li>Strings + Num .</li>
+        <li>Num + Strings .</li>
+        
+       
+    </ol>
+   <p1> //Examples of Concatenation Operaters : </p1>
+   <br><br>
+  <p> Value of a=High 
+   <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b=school </p>
+   <ol>
+        <li>c=a+b;</li>
+        
+    </ol>
+    <p>1.For Answers  </p>
+    Go to Console/Click on the button:
+<button onclick="myFunction()">click</button>
+
+<p id="demo2"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo2").innerHTML = "1=Highschool";
+}
+</script>
+   
+   <script>
+    var a= "High"
+    var b= "School"
+    var c= a+b;
+    console.log(c);
+     </script>
+
+     <h3>4. <u>Increment/Decrement Operaters </u> </h3>
+   . An Increment and decrement operators are unary operators that add or subtract one, to or from their operand, respectively.
+
+  <p> There are 2 types of Increment/Decrement operaters </p>
+
+  <ol>
+        <li>Veriable=Veriable+1 : '++'</li>
+        <li>Veriable=Veriable-1 : '--'</li>
+    </ol>
+
+   <p1> //Examples of Increment/Decrement Operaters : </p1>
+   <br><br>
+  <p> Value of a=10 </p>
+   <ol>
+        <li>b=(a++);  </li>
+        <li>b=(a--);</li>
+        
+    </ol>
+    <p>1.To get Answers  
+    Go to Console/Click on the button:</p>
+<button onclick="myFunction()">push</button>
+
+<p id="demo4"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo4").innerHTML = "1=10 <br> 2=11<br> 3=10";
+}
+   </script>
+
+   <script>
+    var a=10
+    console.log(a);
+
+      a++;
+    console.log(a);
+
+
+      a--;
+    console.log(a);
+
+     </script>
+
+
+      <h3>5. <u>Logical Operaters </u> </h3>
+   . Logical operaters are allow a program to make a decision based on multiple conditions. 
+  <p> There are 3 types of Logical operaters </p>
+
+   <ol>
+        <li>And : '&&'</li>
+        <li>Or : '||'</li>
+        <li>Not : '!'</li>
+
+    </ol>
+
+   <p1> //Examples of Logical Operaters : </p1>
+   <br><br>
+  <p> Value of a=100
+   <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b=300 
+                <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c=200</p>
+   <ol>
+        <li>(a smaller than b && b smaller than c)</li>
+        <li>(a greater than b && b smaller than c)</li>
+        <li>(a smaller than b && b greater than c)</li>
+              <br>
+              <br>
+        <li>(a smaller than b && b smaller than c)</li>
+        <li>(a smaller than b && b greater than c)</li>
+        <li>(a greater than b && b smaller than c)</li> 
+                  <br>
+                  <br>
+        <li>(!a smaller than b )</li>
+        <li>(!b smaller than c )</li>
+        <li>(!a greater than c )</li> 
+
+        
+    </ol>
+    <p>1.For Answers  </p>
+    Go to Console/Click on the button:
+<button onclick="myFunction()">click</button>
+
+<p id="demo5"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo5").innerHTML = "1=false <br> 2=false  <br> 3=true<br> 4=true<br> 5=true<br> 6=false<br> 7=true<br> 8=true<br> 9=false";
+}
+</script>
+
+     <script>
+    var a=100,b=300,c=200;
+
+     
+    console.log(a<b && b<c);
+    console.log(a>b && b<c);
+    console.log(a<b && b>c);
+
+    
+    console.log(a<b || b<c);
+    console.log(a<b || b>c);
+    console.log(a>b || b<c);
+
+     
+    console.log(!a<b);
+    console.log(!b<c);
+    console.log(!a>c);
+
+     </script>
+
+
+     <h3>6. <u>Relational Operaters </u> </h3>
+   . Relational operaters are allow a program to make a decision based on multiple conditions. 
+  <p> There are 6 types of Relational operaters </p>
+
+   <ol>
+        <li>Equals: '=='</li>
+        <li>Not equals: '!='</li>
+        <li>Less than: '<'</li>
+        <li>Greater than: '>'</li>
+        <li>Less than equal: '<='</li>
+        <li>Greater than equals:'>='</li>
+    </ol>
+
+
+   <p1> //Examples of Relational Operaters : </p1>
+   <br><br>
+  <p> Value of a=100
+   <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b=300</p>
+  <ol>
+        <li>  (a==b);  </li>
+        <li>(a!=b);</li>
+        <li>(a smaller than b);</li>
+        <li>(a greater than b);</li>
+        <li>(a<=b);</li>
+        <li>(a>=b);</li>
+        
+    </ol>
+     <p>1.For Answers  </p>
+    Go to Console/Click on the button:
+<button onclick="myFunction()">click</button>
+
+<p id="demo6"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo6").innerHTML = "1=false <br> 2=true<br> 3=true<br> 4=false<br> 5=true<br> 6=false";
+}
+</script>
+<script>
+    var a=100,b=300;
+
+     
+    console.log(a==b);
+
+    
+    console.log(a!=b);
+
+     
+    console.log(a<b);
+
+    
+    console.log(a>b);
+
+    console.log(a<=b);
+    
+    console.log(a>=b);
+    
+
+     </script>
+
+
+</body>
+</html>
+
+
+</body>
+</html>
