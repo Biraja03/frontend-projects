@@ -1,0 +1,40 @@
+.background-main {
+	color:red;
+    background: url(https://cdn.geckoandfly.com/wp-content/uploads/2013/11/234864.jpg);
+    background-size: 100%;
+}
+
+.background-grey {
+    background-color: gray;
+    text-decoration: overline;
+}
+
+.background-green {
+    background-color: green;
+    text-decoration: overline;
+}
+
+.background-orange {
+    background-color: orange;
+    text-decoration: underline;
+}
+
+.image-dice {
+	color: white;
+    background: url(https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-3D-Background-Images-For-Websites-1920x1080-PIC-WPD0013486.jpg);
+    background-size: 100% 100%;
+}
+
+.image-lion {
+	color:limegreen;
+    background: url(https://images8.alphacoders.com/712/thumb-1920-712496.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.image-messi {
+	color: #06FC94;
+    background: url(https://wallpaper-house.com/data/out/6/wallpaper2you_116840.jpg);
+    background-size: 100% 100%;
+    
+}
