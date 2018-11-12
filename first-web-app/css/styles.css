@@ -1,7 +1,7 @@
 .background-main {
 	color: skyblue;
     background: url(https://images.unsplash.com/photo-1496626868305-15f52fa605b7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3d5a2671d16f1761bdcd0df22f790db4&auto=format&fit=crop&w=750&q=80);
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 
 .background-grey {
