@@ -1,1 +1,4 @@
-document.write ("we are now in 2018");
+function myFunction(p1, p2) {
+    return p1 * p2;
+}
+myFunction();

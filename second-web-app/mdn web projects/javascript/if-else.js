@@ -1,12 +1,14 @@
 var year = "2018";
 
-if (year == "2017"){
-alert("we are back");	
+if (year == "2016"){
+alert("Chicken Dinner");
 }
 
-else if (year == "2016"){
-	alert("welcome to my page");	
+else if(year=="2017"){
+	alert("happy new year")
 }
-else if (year == "2018"){
-	alert("we are in 2018");	
-}
+ 
+  else if (year=="2018"){
+  	alert("welcome to 2018")
+  }
+ 
