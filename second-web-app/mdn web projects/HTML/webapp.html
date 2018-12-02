@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" type="text/css" href="../css/back.css"/>
+<body class="background-main">
+
+<h2  align="center"> FORM </h2>
+<form action="http://localhost:8080/" method="get">
+
+ <div>  NAME:
+  <input type="text" name="name" size="30"/></div>
+  <br>
+  <br>
+  <br>
+  <div>
+  AGE: &nbsp&nbsp&nbsp
+  <input type="text" name="age" size="30"></div>
+  <br>
+  <br> 
+<br>
+  <form>
+  	<div >
+SEX: &nbsp&nbsp&nbsp MALE: <input type="radio" name="gender">
+ FEMALE: <input type="radio" name="gender"> <div>
+</form>
+<form> 
+ <br>
+ <br>
+ <br>
+ <div >
+ ADDRESS:<br>
+ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <textarea rows="8" cols="35">
+ 	
+ </textarea><br>
+</div> 
+</form>
+<br>
+<br>
+<br>
+<form>
+	
+	<div>
+		COUNTRY:
+	&nbsp&nbsp&nbsp<select id= "countrylist"  onchange="countries()">
+		<option>India</option>
+		<option>USA</option>
+		<option>Russia</option>
+		<option>Germany</option>
+		<option>England</option>
+		<option>France</option>
+		<option>Spain</option>
+		<option>Swaden</option>
+		<option>Peru</option>
+		<option>Brazil</option>
+		<option>Japan</option>
+		<option>China</option>
+		<option>Netherland</option>
+		<option>Newziland</option>
+		<option>Canada</option>
+		<option>Africa</option>
+		<option>Korea</option>
+		<option>Uruguay</option>
+		<option>Paraguay</option>
+		<option>Greece</option>
+		<option>Pakistan</option>
+		<option>Iran</option>
+		<option>Iraq</option>
+		<option>UAE</option>
+	</select>
+</div>
+</form><br><br>
+<p>Languages Known:</p>
+
+ <form>
+ 	<div>
+<input type="checkbox" name="languages"> C
+<input type="checkbox" name="languages"> C++
+<input type="checkbox" name="languages"> JAVA
+<input type="checkbox" name="languages"> PYTHON
+</div>
+</form><br>
+<input type="submit" value="submit">
+</body>
+</html>
